@@ -5,17 +5,11 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 
+<p align="center">
+  <img src="images/banner.png" alt="Windows Server Enterprise Lab Banner" width="100%">
+</p>
 
-────────────────────────────────────────────
-
-[Large Professional Banner]
-
-WINDOWS SERVER ENTERPRISE LAB
-
-Enterprise Infrastructure
-Active Directory • DNS • DHCP • PowerShell
-
-────────────────────────────────────────────
+# 🖥️ Windows Server Enterprise Lab
 
 ## Overview
 
