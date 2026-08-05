@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="imagesbanner.png" alt="Windows Server Enterprise Lab Banner" width="100%">
+  <img src="images/banner.png" alt="Windows Server Enterprise Lab Banner" width="100%">
 </p>
 
 # 🖥️ Windows Server Enterprise Lab
