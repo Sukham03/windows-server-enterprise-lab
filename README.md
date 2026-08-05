@@ -6,7 +6,16 @@
 
 
 
-# Windows Server Enterprise Lab
+────────────────────────────────────────────
+
+[Large Professional Banner]
+
+WINDOWS SERVER ENTERPRISE LAB
+
+Enterprise Infrastructure
+Active Directory • DNS • DHCP • PowerShell
+
+────────────────────────────────────────────
 
 ## Overview
 
