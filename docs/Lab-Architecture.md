@@ -1,45 +1,36 @@
 # Lab Architecture
 
-## Objective
+## Project Objective
 
-The objective of this project was to build an enterprise Windows Server environment capable of supporting Active Directory, DNS, DHCP, user management, and Windows administration tasks.
+The objective of this project was to design and administer a virtualized Windows Server environment that simulates common enterprise infrastructure.
 
-## Environment
+The lab includes multiple Windows Server 2022 systems configured to provide centralized identity management, network services, administration, backup, and recovery capabilities.
 
-Virtualization Platform
+## Environment Overview
 
-- VMware Workstation
+| System | Role | Purpose |
+|---|---|---|
+| DC1 | Primary Domain Controller | Hosts Active Directory Domain Services, DNS, and DHCP |
+| TOR | Additional Domain Controller | Provides domain redundancy and Global Catalog services |
+| SVR1 | Member Server | Supports domain-based administration and server services |
+| VMware Workstation | Virtualization platform | Hosts and connects the virtual servers |
 
-Operating System
+## Domain Configuration
 
-- Windows Server 2022
+```text
+Domain: adatum.com
 
-Servers
+DC1
+├── Active Directory Domain Services
+├── DNS
+├── DHCP
+└── Primary domain administration
 
-- DC1 (Primary Domain Controller)
-- TOR (Secondary Domain Controller)
-- SVR1 (Member Server)
+TOR
+├── Additional Domain Controller
+├── Global Catalog
+└── Active Directory replication
 
-Core Services
-
-- Active Directory Domain Services
-- DNS
-- DHCP
-
-Management Tools
-
-- Server Manager
-- Active Directory Users and Computers
-- Active Directory Administrative Center
-- PowerShell
-
-## Skills Practiced
-
-- Domain Controller deployment
-- Active Directory administration
-- DNS configuration
-- DHCP configuration
-- Organizational Unit management
-- User and Group management
-- PowerShell administration
-- Windows Server troubleshooting
+SVR1
+├── Domain member server
+└── Internal server services
