@@ -146,7 +146,9 @@ Screenshots demonstrating the configuration will be added below.
 
 ### Security Groups
 
-`Screenshot coming soon`
+![Active Directory ITAdmins Security Group](../images/active-directory-security-group.png)
+
+**ITAdmins security group configured within the IT Organizational Unit, showing assigned group members in Active Directory Administrative Center.**
 
 ### Delegation of Control
 
